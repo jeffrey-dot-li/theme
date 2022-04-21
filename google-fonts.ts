@@ -12,11 +12,17 @@ export const googleFonts
   'Open Sans': {
     name: 'Open Sans',
     fromGoogle: true,
+    weights: [200, 300, 400, 500, 600, 700],
+    roles: [],
+    fallbacks: fallbacks.sans,
+  },
+  'Roboto': {
+    name: 'Roboto',
+    fromGoogle: true,
     weights: [],
     roles: [],
     fallbacks: fallbacks.sans,
   },
-
   'Oswald': {
     name: 'Oswald',
     fromGoogle: true,
