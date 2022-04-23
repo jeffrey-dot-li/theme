@@ -1,4 +1,4 @@
-import { projectFonts } from './project-config';
+import { projectFonts } from '../theme-config';
 import projectColors from './colors';
 
 const replaceSpaces = (s: string, c = ''): string => s.replace(/\s+/g, c);
