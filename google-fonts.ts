@@ -23,6 +23,13 @@ export const googleFonts
     roles: [],
     fallbacks: fallbacks.sans,
   },
+  'Baloo Da': {
+    name: 'Baloo Da 2',
+    fromGoogle: true,
+    weights: [200, 300, 400, 500, 600, 700, 800],
+    roles: [],
+    fallbacks: fallbacks.display,
+  },
   'Oswald': {
     name: 'Oswald',
     fromGoogle: true,
