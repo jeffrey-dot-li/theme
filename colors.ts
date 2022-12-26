@@ -58,6 +58,5 @@ export const themeHSL
   },
 } as const;
 
-// eslint-disable-next-line no-use-before-define
 const themeCondensed = Object.fromEntries(Object.entries(themeHSL).map(([k, v]) => [k, v.palette])) as { [k in keyof typeof themeHSL]: (typeof themeHSL)[k]['palette'] };
 export default themeCondensed;
