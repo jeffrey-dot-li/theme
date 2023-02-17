@@ -9,6 +9,13 @@ const fallbacks
 
 export const googleFonts
 = {
+  'Barlow Condensed': {
+    name: 'Barlow Condensed',
+    fromGoogle: true,
+    weights: [200, 300, 400, 500, 600, 700],
+    roles: ['banner', 'display', 'sans-serif'],
+    fallbacks: fallbacks.sans,
+  },
   'Open Sans': {
     name: 'Open Sans',
     fromGoogle: true,
