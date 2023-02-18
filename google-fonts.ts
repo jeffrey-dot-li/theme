@@ -9,6 +9,13 @@ const fallbacks
 
 export const googleFonts
 = {
+  'Cambay': {
+    name: 'Cambay',
+    fromGoogle: true,
+    weights: [200, 300, 400, 500, 600, 700, 800],
+    roles: [],
+    fallbacks: fallbacks.sans,
+  },
   'Barlow Condensed': {
     name: 'Barlow Condensed',
     fromGoogle: true,
@@ -26,7 +33,7 @@ export const googleFonts
   'Roboto': {
     name: 'Roboto',
     fromGoogle: true,
-    weights: [],
+    weights: [200, 300, 400, 500, 600, 700],
     roles: [],
     fallbacks: fallbacks.sans,
   },

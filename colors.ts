@@ -56,6 +56,17 @@ export const themeHSL
       100: 'hsl(239,100%, 70%)',
     },
   },
+
+  peach: {
+    hue: 11,
+    sat: 65,
+    palette: {
+      65: 'hsl(11,65%,65%)',
+      75: 'hsl(11,65%,75%)',
+      85: 'hsl(11,65%,85%)',
+      100: 'hsl(11,100%, 70%)',
+    },
+  },
 } as const;
 
 const themeCondensed = Object.fromEntries(Object.entries(themeHSL).map(([k, v]) => [k, v.palette])) as { [k in keyof typeof themeHSL]: (typeof themeHSL)[k]['palette'] };
