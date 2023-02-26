@@ -9,6 +9,20 @@ const fallbacks
 
 export const googleFonts
 = {
+  'Outfit': {
+    name: 'Outfit',
+    fromGoogle: true,
+    weights: [200, 300, 400, 500, 600, 700, 800],
+    roles: [],
+    fallbacks: fallbacks.sans,
+  },
+  'Roboto Mono': {
+    name: 'Roboto Mono',
+    fromGoogle: true,
+    weights: [200, 300, 400, 500, 600, 700, 800],
+    roles: [],
+    fallbacks: fallbacks.mono,
+  },
   'Cambay': {
     name: 'Cambay',
     fromGoogle: true,

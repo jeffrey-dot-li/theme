@@ -61,6 +61,7 @@ export const themeHSL
     hue: 11,
     sat: 65,
     palette: {
+      35: 'hsl(11, 35%, 35%)',
       45: 'hsl(11, 65%, 45%)',
       55: 'hsl(11, 65%, 55%)',
       65: 'hsl(11,65%,65%)',
